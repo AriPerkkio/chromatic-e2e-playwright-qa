@@ -1,0 +1,32 @@
+{
+  "name": "@chromatic-com/e2e-demo-playwright",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Showcases a real-world demo of E2E Visual Tests with Chromatic and Playwright",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "test": "playwright test",
+    "test:storybook": "playwright test --config e2e/playwright.config.ts",
+    "build": "build-archive-storybook",
+    "preview": "archive-storybook",
+    "chromatic": "chromatic --playwright --project-token=$CHROMATIC_PROJECT_TOKEN",
+    "ecosystem-ci": "pnpm test && pnpm build && pnpm test:storybook"
+  },
+  "devDependencies": {
+    "@chromatic-com/playwright": "latest",
+    "@playwright/test": "1.61.0",
+    "@types/node": "26.0.0",
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "chromatic": "18.15.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "sass-embedded": "1.100.0",
+    "typescript": "^5",
+    "vite": "^8"
+  },
+  "packageManager": "pnpm@10.33.4"
+}

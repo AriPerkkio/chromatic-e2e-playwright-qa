@@ -1,0 +1,9 @@
+node_modules
+.env
+build-archive.log
+storybook-static
+test-results
+playwright-report
+
+# We want to install latest versions of dependencies with "@latest"
+pnpm-lock.yaml

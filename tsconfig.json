@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "ESNext",
+    "target": "esnext",
+    "moduleResolution": "bundler",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "types": ["node"],
+    "strict": true,
+    "noEmit": true
+  },
+  "include": ["src", "tests", "e2e", "vite.config.ts", "playwright.config.ts"]
+}
