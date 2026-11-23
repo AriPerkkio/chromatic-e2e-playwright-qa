@@ -17,16 +17,16 @@
   }
 
   &:hover:not(:disabled) {
-    background-color: #ff63eb;
+    background-color: #2563eb;
     box-shadow: 0 4px 6px rgba(37, 99, 235, 0.3);
   }
 
   &:active:not(:disabled) {
-    background-color: #ff4ed8;
+    background-color: #1d4ed8;
   }
 
   &:focus {
-    outline: 2px solid #ff82f6;
+    outline: 2px solid #3b82f6;
     outline-offset: 2px;
   }
 }
