@@ -15,7 +15,7 @@
     "ecosystem-ci": "pnpm test && pnpm build && pnpm test:storybook"
   },
   "devDependencies": {
-    "@chromatic-com/playwright": "latest",
+    "@chromatic-com/playwright": "https://pkg.pr.new/@chromatic-com/playwright@e912aad",
     "@playwright/test": "1.61.0",
     "@types/node": "26.0.0",
     "@types/react": "19.2.17",
